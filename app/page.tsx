@@ -1,3 +1,9 @@
+import Nav from "@/components/nav";
+
 export default function Home() {
-  return <p>Hello Morris Forte</p>;
+  return (
+    <div>
+      <Nav />
+    </div>
+  );
 }
