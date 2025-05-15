@@ -1,11 +1,15 @@
 import Hero from "@/components/hero";
-import ImageComposition from "@/components/ui/imageComposition";
+import About from "@/components/about";
+import Service from "@/components/services";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
     <div className="">
       <Hero />
-      <ImageComposition />
+      <About />
+      <Service />
+      <Footer />
     </div>
   );
 }

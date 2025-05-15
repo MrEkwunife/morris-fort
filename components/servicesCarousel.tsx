@@ -41,6 +41,14 @@ const services: Service[] = [
       "Aenean mattis mauris turpis, quis porta magna aliquam eu. Nulla consectetur.",
     image: "/image-about1.jpeg",
   },
+
+  {
+    id: 4,
+    title: "Solar Solutions",
+    description:
+      "Aenean mattis mauris turpis, quis porta magna aliquam eu. Nulla consectetur.",
+    image: "/image-about1.jpeg",
+  },
 ];
 
 import type { CarouselApi } from "@/components/ui/carousel";

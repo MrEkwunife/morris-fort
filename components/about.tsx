@@ -5,7 +5,7 @@ import { CircleCheck } from "lucide-react";
 export default function About() {
   return (
     <section className="py-16">
-      <div className="w-[92%] mx-auto lg:flex lg:gap-10 xl:gap-10">
+      <div className="w-[92%] mx-auto lg:flex lg:gap-10 lg:w-[85%] xl:gap-10">
         <div className="w-[80%] mb-24 md:w-[100%]">
           <ImageComposition />
         </div>
