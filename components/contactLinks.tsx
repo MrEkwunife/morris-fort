@@ -10,7 +10,7 @@ import {
 
 export default function ContactLinks() {
   return (
-    <aside className="flex items-center justify-center md:justify-between px-6">
+    <aside className="flex items-center justify-center md:justify-between px-1 mb-3">
       <ContactEmailPhone />
       <ContactSocials />
     </aside>

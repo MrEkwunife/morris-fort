@@ -10,7 +10,7 @@ export default function Nav() {
 
   return (
     <div className="w-full flex justify-center relative">
-      <nav className="flex justify-between items-center py-4 px-6 shadow-sm w-[95%] rounded-2xl mx-auto mt-4">
+      <nav className="flex justify-between items-center py-4 px-6 shadow-sm w-full rounded-2xl">
         <div className="text-xl font-bold">Morris Forte</div>
 
         {/* Desktop Menu */}
