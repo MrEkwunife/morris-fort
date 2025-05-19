@@ -1,5 +1,33 @@
 import Image from "next/image";
 
+interface process {
+  img: string;
+  step: string;
+  title: string;
+  text: string;
+}
+
+const processItems: process[] = [
+  {
+    img: "/images/icon-step-1.svg",
+    step: "01",
+    title: "Project Planing",
+    text: "Lorem Ipsum is simply dummy text of the printing andtypesetting industry",
+  },
+  {
+    img: "/images/icon-step-2.svg",
+    step: "02",
+    title: "Research & Analysis",
+    text: "Lorem Ipsum is simply dummy text of the printing andtypesetting industry",
+  },
+  {
+    img: "/images/icon-step-3.svg",
+    step: "03",
+    title: "Solar Installation",
+    text: "Lorem Ipsum is simply dummy text of the printing andtypesetting industry",
+  },
+];
+
 export default function OurProocess() {
   return (
     <div className="our-process">
@@ -16,97 +44,40 @@ export default function OurProocess() {
         </div>
 
         <div className="row">
-          <div className="col-md-4">
-            {/* <!-- Step Item Start --> */}
-            <div
-              className="step-item step-1 wow fadeInUp"
-              data-wow-delay="0.25s"
-            >
-              <div className="step-header">
-                <div className="step-icon">
-                  <figure>
-                    <Image
-                      src="images/icon-step-1.svg"
-                      alt="process img"
-                      width={55}
-                      height={55}
-                    />
-                  </figure>
-                  <span className="step-no">01</span>
-                </div>
-              </div>
-
-              <div className="step-content">
-                <h3>Project Planing</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </p>
-              </div>
-            </div>
-            {/* <!-- Step Item End --> */}
-          </div>
-
-          <div className="col-md-4">
-            {/* <!-- Step Item Start --> */}
-            <div
-              className="step-item step-2 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <div className="step-header">
-                <div className="step-icon">
-                  <figure>
-                    <Image
-                      src="images/icon-step-2.svg"
-                      alt="process img"
-                      width={55}
-                      height={55}
-                    />
-                  </figure>
-                  <span className="step-no">02</span>
-                </div>
-              </div>
-
-              <div className="step-content">
-                <h3>Research & Analysis</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </p>
-              </div>
-            </div>
-            {/* <!-- Step Item End --> */}
-          </div>
-
-          <div className="col-md-4">
-            {/* <!-- Step Item Start --> */}
-            <div className="step-item wow fadeInUp" data-wow-delay="0.75s">
-              <div className="step-header">
-                <div className="step-icon">
-                  <figure>
-                    <Image
-                      src="images/icon-step-3.svg"
-                      alt="process img 3"
-                      width={55}
-                      height={55}
-                    />
-                  </figure>
-                  <span className="step-no">03</span>
-                </div>
-              </div>
-
-              <div className="step-content">
-                <h3>Solar Installation</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </p>
-              </div>
-            </div>
-            {/* <!-- Step Item End --> */}
-          </div>
+          {processItems.map((processItem) => (
+            <Process
+              key={processItem.step}
+              img={processItem.img}
+              step={processItem.step}
+              title={processItem.title}
+              text={processItem.text}
+            />
+          ))}
         </div>
       </div>
+    </div>
+  );
+}
+
+export function Process({ img, step, title, text }: process) {
+  return (
+    <div className="col-md-4">
+      <div className="step-item wow fadeInUp" data-wow-delay="0.75s">
+        <div className="step-header">
+          <div className="step-icon">
+            <figure>
+              <Image src={img} alt="process img 3" width={55} height={55} />
+            </figure>
+            <span className="step-no">{step}</span>
+          </div>
+        </div>
+
+        <div className="step-content">
+          <h3>{title}</h3>
+          <p>{text}</p>
+        </div>
+      </div>
+      {/* <!-- Step Item End --> */}
     </div>
   );
 }
