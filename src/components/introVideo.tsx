@@ -22,12 +22,7 @@ export default function IntroVideo() {
                   href="https://www.youtube.com/watch?v=Y-x0efG1seA"
                   className="popup-video"
                 >
-                  <Image
-                    src="images/play.svg"
-                    width={512}
-                    height={512}
-                    alt=""
-                  />
+                  <img src="images/play.svg" alt="" />
                 </a>
               </div>
             </div>
