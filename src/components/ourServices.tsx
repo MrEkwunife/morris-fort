@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { title } from "process";
 
 interface servicesInterface {
   img: string;
