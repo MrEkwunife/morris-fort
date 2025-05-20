@@ -1,5 +1,10 @@
 import "./globals.css";
 import { Rajdhani, Rubik } from "next/font/google";
+import Allscripts from "./allscripts";
+
+import TopLinks from "@/components/topLinks";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 const rajdhani = Rajdhani({
   subsets: ["latin"],
@@ -21,7 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${rajdhani.variable} ${rubik.variable}`}>
       <body>
+        <TopLinks />
+        <Header />
         <main>{children}</main>
+        <Footer />
+        <Allscripts />
       </body>
     </html>
   );

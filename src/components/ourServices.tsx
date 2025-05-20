@@ -83,7 +83,7 @@ export function Service({ img, icon, title, text }: servicesInterface) {
       <div className="service-item">
         <div className="service-image">
           <figure>
-            <Image src={img} alt="service img" width={800} height={962} />
+            <Image src={img} alt="service img" width={800} height={500} />
           </figure>
 
           <div className="service-icon">
