@@ -65,7 +65,7 @@ export default function Services() {
   );
 }
 
-export function ServiceList() {
+function ServiceList() {
   return (
     <div className="page-services">
       <div className="container">
