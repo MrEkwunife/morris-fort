@@ -13,22 +13,22 @@ export default function Header() {
             <div className="collapse navbar-collapse main-menu">
               <ul className="navbar-nav mr-auto" id="menu">
                 <li className="nav-item">
-                  <Link className="nav-link" href="about.html">
+                  <Link className="nav-link" href="/">
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="about.html">
+                  <Link className="nav-link" href="about">
                     About us
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="services.html">
+                  <Link className="nav-link" href="services">
                     Services
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="projects.html">
+                  <Link className="nav-link" href="projects">
                     Projects
                   </Link>
                 </li>

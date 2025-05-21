@@ -1,4 +1,4 @@
-import Hero from "@/components/hero";
+import HomeHero from "@/components/homeHero";
 import About from "@/components/about";
 import OurServices from "@/components/ourServices";
 import OurProocess from "@/components/ourProcess";
@@ -8,7 +8,7 @@ import WhyChooseUs from "@/components/whyChooseUs";
 export default function Home() {
   return (
     <>
-      <Hero />
+      <HomeHero />
       <About />
       <OurServices />
       <OurProocess />
