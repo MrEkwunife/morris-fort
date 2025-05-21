@@ -33,7 +33,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="nav-item highlighted-menu">
-                  <Link className="nav-link" href="#">
+                  <Link className="nav-link" href="/contact">
                     Contact
                   </Link>
                 </li>
