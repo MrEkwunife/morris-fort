@@ -93,12 +93,14 @@ export default function Footer() {
                     {/* <!-- Footer About Start --> */}
                     <div className="footer-about">
                       <figure>
-                        <Image
-                          src="/images/footer-logo.svg"
-                          alt=""
-                          width={158}
-                          height={69}
-                        />
+                        <div>
+                          <Image
+                            src="/images/logo-3.jpg"
+                            alt=""
+                            width={158}
+                            height={69}
+                          />
+                        </div>
                       </figure>
                       <p>
                         Green Energy is a long established fact that a reader

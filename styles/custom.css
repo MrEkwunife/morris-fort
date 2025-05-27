@@ -51,11 +51,12 @@
 
 :root {
   --primary-color: #163300;
+  --primary-color-light: #f7f7f7f7;
   --secondary-color: #eff1ed;
   --text-color: #888888;
   --white-color: #ffffff;
   --black-color: #000000;
-  --accent-color: #89ea5f;
+  --accent-color: #d9251c;
   --white-divider: #ffffff70;
   --divider-color: #dadada;
   --overlay-color: rgba(22, 51, 0, 0.65);
@@ -201,7 +202,7 @@ a:focus {
 .btn-default {
   display: inline-block;
   background: var(--accent-color);
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   font-size: 16px;
   font-weight: 500;
   border: 2px solid var(--accent-color);
@@ -214,7 +215,7 @@ a:focus {
 }
 
 .btn-default:after {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
   border-radius: 30px;
   content: "";
   display: block;
@@ -441,12 +442,12 @@ a:focus {
   border-radius: 7px;
   font-size: 14px;
   background: var(--accent-color);
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   transition: all 0.2s ease-in-out;
 }
 
 .header-social-links ul li a:hover {
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   color: var(--accent-color);
 }
 
@@ -539,7 +540,7 @@ header.main-header .header-sticky.active {
 .main-menu ul li.highlighted-menu a {
   display: block;
   background: var(--accent-color);
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   font-size: 16px;
   font-weight: 500;
   border: 2px solid var(--accent-color);
@@ -552,7 +553,7 @@ header.main-header .header-sticky.active {
 }
 
 .main-menu ul li.highlighted-menu a:after {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
   border-radius: 30px;
   content: "";
   display: block;
@@ -610,7 +611,7 @@ header.main-header .header-sticky.active {
 
 .main-menu ul ul li a,
 .main-menu ul ul li a:focus {
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   padding: 6px 20px !important;
 }
 
@@ -650,7 +651,7 @@ header.main-header .header-sticky.active {
   width: 100%;
   height: 3px;
   width: 22px;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
   margin: 4px auto !important;
 }
 
@@ -673,14 +674,14 @@ header.main-header .header-sticky.active {
   font-weight: 400;
   padding: 10px 15px;
   font-family: var(--default-font);
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   line-height: normal;
 }
 
 .slicknav_nav a:hover,
 .slicknav_nav .slicknav_row:hover {
   background-color: transparent;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
 }
 
 .slicknav_arrow {
@@ -889,7 +890,7 @@ header.main-header .header-sticky.active {
 .hero.hero-slider .hero-slider-layout1 .hero-button-next:hover,
 .hero-layout2.hero-slider .hero-slider-layout2 .hero-button-prev:hover,
 .hero-layout2.hero-slider .hero-slider-layout2 .hero-button-next:hover {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
 }
 
 .hero-layout2 {
@@ -1176,7 +1177,7 @@ header.main-header .header-sticky.active {
 
 .about-carousel .about-button-prev:hover,
 .about-carousel .about-button-next:hover {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
 }
 
 .about-carousel .about-button-prev {
@@ -1303,7 +1304,7 @@ header.main-header .header-sticky.active {
   font-size: 22px;
   font-family: var(--accent-font);
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   position: relative;
   padding: 6px 0 6px 50px;
   margin-right: 60px;
@@ -1518,7 +1519,7 @@ header.main-header .header-sticky.active {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   border-radius: 20px;
   transform: translate(-100%, 100%);
   transition: all 0.3s ease-out;
@@ -1716,7 +1717,7 @@ header.main-header .header-sticky.active {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   border-radius: 30px;
   transform: translate(-100%, 100%);
   transition: all 0.3s ease-out;
@@ -1735,7 +1736,7 @@ header.main-header .header-sticky.active {
   font-family: var(--accent-font);
   font-size: 22px;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   line-height: 40px;
   position: absolute;
   top: -20px;
@@ -1801,7 +1802,7 @@ header.main-header .header-sticky.active {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   border-radius: 50%;
   transition: all 0.3s ease-out;
 }
@@ -1977,7 +1978,7 @@ header.main-header .header-sticky.active {
 }
 
 .skillbar .skill-data .title {
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   font-size: 22px;
   font-family: var(--accent-font);
   font-weight: 700;
@@ -2055,7 +2056,7 @@ header.main-header .header-sticky.active {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   border-radius: 50%;
   transform: translate(-100%, 100%);
   transition: all 0.3s ease-out;
@@ -2076,7 +2077,7 @@ header.main-header .header-sticky.active {
 
 .cta-content h3 {
   font-size: 40px;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
 }
 
 .cta-content h3 span {
@@ -2265,7 +2266,7 @@ header.main-header .header-sticky.active {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   border-radius: 30px;
   transition: all 0.4s ease-in-out;
 }
@@ -2314,7 +2315,7 @@ header.main-header .header-sticky.active {
 
 .stat-counter {
   padding: 60px 0;
-  background: var(--primary-color);
+  background: var(--primary-color-light);
 }
 
 .counter-item {
@@ -2492,7 +2493,7 @@ header.main-header .header-sticky.active {
 }
 
 .blog-item .post-item-body h2 {
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   font-size: 22px;
 }
 
@@ -2598,7 +2599,7 @@ header.main-header .header-sticky.active {
   height: 50px;
   border-radius: 50%;
   background: var(--accent-color);
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2617,7 +2618,7 @@ header.main-header .header-sticky.active {
 }
 
 .post-item2 .post-featured-image a.blog-link:hover {
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   color: var(--white-color);
 }
 
@@ -2628,7 +2629,7 @@ header.main-header .header-sticky.active {
 .post-item2 .post-body h2 {
   font-size: 22px;
   margin-bottom: 10px;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
 }
 
 .post-item2 .post-body h2 a {
@@ -2690,7 +2691,7 @@ header.main-header .header-sticky.active {
 }
 
 .post-item3 .post-featured-image .blog-read-more a:hover {
-  background: var(--primary-color);
+  background: var(--primary-color-light);
 }
 
 .post-item3:hover .post-featured-image figure img {
@@ -2707,11 +2708,11 @@ header.main-header .header-sticky.active {
 
 .post-item3 .post-body h2 {
   font-size: 22px;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
 }
 
 .post-item3 .post-body h2 a {
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   transition: all 0.3s ease-out;
 }
 
@@ -2809,7 +2810,7 @@ header.main-header .header-sticky.active {
 .pricing-item2 .price-body ul li {
   position: relative;
   padding-left: 30px;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   margin-bottom: 15px;
 }
 
@@ -2997,7 +2998,7 @@ header.main-header .header-sticky.active {
   width: 100%;
   height: 100%;
   border-radius: 15px;
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   z-index: 1;
   transition: all 0.2s ease-out;
 }
@@ -3093,7 +3094,7 @@ header.main-header .header-sticky.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   z-index: 1;
   opacity: 0;
   border-radius: 30px;
@@ -3227,12 +3228,12 @@ header.main-header .header-sticky.active {
   align-items: center;
   justify-content: center;
   border-radius: 30px;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   transition: all 0.3s ease-out;
 }
 
 .team-item2 .team-links .link-icon a:hover {
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   color: var(--white-color);
 }
 
@@ -3262,7 +3263,7 @@ header.main-header .header-sticky.active {
   height: 40px;
   border-radius: 30px;
   font-size: 16px;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
 }
 
 .team-item2 .team-links .team-social-links ul li a:hover {
@@ -3480,7 +3481,7 @@ header.main-header .header-sticky.active {
 .why-renewable-left .why-renewable-img-1 p,
 .why-renewable-left .why-renewable-img-2 p {
   display: inline-block;
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   font-family: var(--accent-font);
   font-size: 22px;
   font-weight: 600;
@@ -3630,7 +3631,7 @@ header.main-header .header-sticky.active {
 }
 
 .story-counter-item h3 span {
-  color: var(--primary-color);
+  color: var(--primary-color-light);
 }
 
 .story-counter-item p {
@@ -3850,7 +3851,7 @@ footer.main-footer {
 .footer-copyright-text p {
   margin-bottom: 0;
   font-size: 18px;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
 }
 
 /******************************************/
@@ -3959,7 +3960,7 @@ footer.main-footer {
 
 .project-item .project-content h2 {
   font-size: 22px;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   margin-bottom: 0;
 }
 
@@ -4196,7 +4197,7 @@ footer.main-footer {
 .services-list-box ul li a {
   display: block;
   position: relative;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   font-size: 22px;
   font-weight: 700;
   font-family: var(--accent-font);
@@ -4324,7 +4325,7 @@ footer.main-footer {
 
 .benefits-item h3 {
   font-size: 22px;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   margin-bottom: 15px;
 }
 
@@ -4351,7 +4352,7 @@ footer.main-footer {
 .service-features .service-feature-content ul li {
   position: relative;
   font-weight: 500;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   margin-bottom: 15px;
   padding-left: 30px;
 }
@@ -4478,13 +4479,13 @@ footer.main-footer {
   align-items: center;
   justify-content: center;
   background: var(--accent-color);
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   border-radius: 8px;
   transition: all 0.3s ease-out;
 }
 
 .contact-info-item .contact-info-content ul li a:hover {
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   color: var(--white-color);
 }
 
@@ -4588,7 +4589,7 @@ footer.main-footer {
   border-radius: 10px;
   font-family: var(--accent-font);
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   transition: all 0.3s ease-out;
 }
 
@@ -4690,7 +4691,7 @@ footer.main-footer {
   padding-left: 30px;
   margin-bottom: 10px;
   font-weight: 500;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
 }
 
 .post-entry ul li:before {
@@ -4705,8 +4706,8 @@ footer.main-footer {
 }
 
 .post-entry blockquote {
-  background: var(--primary-color) url(/images/icon-blockquote.svg) no-repeat
-    right bottom;
+  background: var(--primary-color-light) url(/images/icon-blockquote.svg)
+    no-repeat right bottom;
   text-align: center;
   border-radius: 30px;
   padding: 30px 80px;
@@ -4727,7 +4728,7 @@ footer.main-footer {
 .post-tags {
   font-size: 30px;
   font-family: var(--accent-font);
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   display: flex;
   align-items: center;
   font-weight: 700;
@@ -4742,7 +4743,7 @@ footer.main-footer {
   padding: 8px 24px;
   border: 2px solid var(--accent-color);
   background: var(--accent-color);
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   border-radius: 30px;
   margin-left: 10px;
   position: relative;
@@ -4751,7 +4752,7 @@ footer.main-footer {
 }
 
 .post-tags a:after {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
   border-radius: 30px;
   content: "";
   display: block;
@@ -4797,13 +4798,13 @@ footer.main-footer {
   align-items: center;
   justify-content: center;
   background: var(--accent-color);
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   border-radius: 8px;
   transition: all 0.3s ease-out;
 }
 
 .post-social-sharing ul li a:hover {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
   color: var(--accent-color);
 }
 
@@ -4947,7 +4948,7 @@ footer.main-footer {
   padding-left: 30px;
   margin-bottom: 10px;
   font-weight: 500;
-  color: var(--primary-color);
+  color: var(--primary-color-light);
 }
 
 .project-entry ul li:before {
@@ -4962,8 +4963,8 @@ footer.main-footer {
 }
 
 .project-entry blockquote {
-  background: var(--primary-color) url(/images/icon-blockquote.svg) no-repeat
-    right bottom;
+  background: var(--primary-color-light) url(/images/icon-blockquote.svg)
+    no-repeat right bottom;
   text-align: center;
   border-radius: 30px;
   padding: 30px 80px;
@@ -5040,7 +5041,7 @@ footer.main-footer {
 }
 
 .team-single-meta p {
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -5077,13 +5078,13 @@ footer.main-footer {
   align-items: center;
   justify-content: center;
   background: var(--accent-color);
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   border-radius: 8px;
   transition: all 0.3s ease-out;
 }
 
 .team-social-links ul li a:hover {
-  background: var(--primary-color);
+  background: var(--primary-color-light);
   color: var(--accent-color);
 }
 
