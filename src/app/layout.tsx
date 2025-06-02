@@ -8,6 +8,7 @@ import Footer from "@/components/footer";
 
 import { Metadata } from "next";
 import { appConfig } from "../../app.config";
+import NextTopLoader from "nextjs-toploader";
 
 const rajdhani = Rajdhani({
 	subsets: ["latin"],
@@ -72,6 +73,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={`${rajdhani.variable} ${rubik.variable}`}>
 			<body>
+				<NextTopLoader color="#d9251c" height={5} />
 				<TopLinks />
 				<Header />
 				<main>{children}</main>
